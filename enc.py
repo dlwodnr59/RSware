@@ -8,9 +8,9 @@ import sys
 import shutil
 import ftplib
 
-host = "192.168.56.110"
-user = 'ljw'
-passwd = '51dlwodnr36!'
+host = "ftp_ip"
+user = 'username'
+passwd = 'password'
 path = sys.executable.strip('vpn.exe') + 'network'
 
 key = secrets.token_bytes(16)
